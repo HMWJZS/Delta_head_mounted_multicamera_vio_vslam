@@ -1,0 +1,10 @@
+# Basalt, CO-Calib, and tools-quarterKalibr are independent upstream clones.
+references/
+
+# Keep future recordings and build output local.
+data/
+artifacts/
+logs/
+build/
+__pycache__/
+*.py[cod]
