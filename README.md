@@ -4,7 +4,11 @@
 
 ## 文档
 
+- [当前 Camera + IMU + Mocap 标定执行入口](docs/README.md)：固定决策、执行顺序、验收出口和当前工具缺口。
 - [标定与数据采集测试方案](docs/calibration/头戴多目VIO_VSLAM_标定与数据采集_测试方案.md)：P0–P4 的 Layout、传感器质检、时空标定、EuRoC 数据录制与动捕 Ground Truth 流程。
+- [多相机、IMU 与 Mocap 时空标定现场操作手册](docs/calibration/头戴多目VIO_VSLAM_多相机IMU与Mocap时空标定_现场操作手册.md)：完整采集流程、标定方法、重复性比较和独立数据验证。
+- [标定现场采集动作清单](docs/calibration/头戴多目VIO_VSLAM_标定现场采集_动作清单.md)：五个标准数据包的现场检查与动作要求。
+- [时空标定数据包格式](docs/calibration/头戴多目VIO_VSLAM_时空标定数据包格式_方法说明.md)：Extended EuRoC 目录、时间戳、CSV、元数据和验收约定。
 - [Basalt 标定与数据参考](docs/calibration/头戴多目VIO_VSLAM_Basalt标定与数据参考_方法说明.md)：EuRoC 录制、数据质检、动捕外参与时间对齐。
 - [tools-quarterKalibr 四目 IMU 标定参考](docs/calibration/头戴多目VIO_VSLAM_toolsQuarterKalibr四目IMU标定参考_方法说明.md)：拼接四鱼眼拆包、相邻相机对、相机–IMU 与虚拟双目原型。
 - [CO-Calib 多相机标定参考](docs/calibration/头戴多目VIO_VSLAM_COCalib多相机标定参考_方法说明.md)：Datawash、任意相机数配置与 Kalibr 相机链输出。

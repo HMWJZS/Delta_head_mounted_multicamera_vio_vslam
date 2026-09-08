@@ -384,6 +384,8 @@ T_I_M
 
 针对 220° 多鱼眼系统，标定不能只检查 overall reprojection RMS。
 
+本项目优先使用 **EUCM**（`eucm-none`）作为工程相机模型。`omni+radtan` 可用于标定结果交叉比较，但当前 VIO 算法暂不支持，因此不作为交付模型。
+
 至少需要同时检查：
 
 ```text
